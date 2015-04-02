@@ -35,7 +35,7 @@
             // 
             // btn_jouer
             // 
-            this.btn_jouer.Location = new System.Drawing.Point(345, 101);
+            this.btn_jouer.Location = new System.Drawing.Point(366, 121);
             this.btn_jouer.Name = "btn_jouer";
             this.btn_jouer.Size = new System.Drawing.Size(181, 89);
             this.btn_jouer.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             // btn_quitter
             // 
-            this.btn_quitter.Location = new System.Drawing.Point(345, 284);
+            this.btn_quitter.Location = new System.Drawing.Point(366, 280);
             this.btn_quitter.Name = "btn_quitter";
             this.btn_quitter.Size = new System.Drawing.Size(181, 88);
             this.btn_quitter.TabIndex = 1;
