@@ -14,6 +14,9 @@ namespace StupideVautour2
     {
         enum Phase { AfficheCarteSV, ChoixCarte, ComparaisonCarte, FinTour };
         Phase tour;
+        Random shuffle;
+
+
         public Jeu()
         {
             InitializeComponent();
@@ -25,8 +28,22 @@ namespace StupideVautour2
             }
             resetCartes();
             tour = Phase.AfficheCarteSV;
+            MessageBox.Show("Début du tour!!");
+            affichCarteSV();
 
+        }
 
+        public int indiceHasard()
+        {
+            shuffle = new Random();
+            //int i = (int)(shuffle.Next(DateTime.Now.Millisecond)/5760000);
+            int i = shuffle.Next(0, 15);
+            return i;
+        }
+
+        public void affichCarteSV()
+        {
+            carte_SV.Image = SabotCaché.Images[indiceHasard()];    
         }
 
         public void resetCartes()
@@ -49,14 +66,26 @@ namespace StupideVautour2
 
         }
 
-        private void CarteJ1_1_Click(object sender, EventArgs e)
+        /*private void CarteJ1_XX_Click(object sender, EventArgs e)
         {
-            
-        }
+            PictureBox carte = (PictureBox)sender;
+            //carte
+        }*/
 
         private void Jeu_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Carte_SV_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CarteJ1_1_Click(object sender, EventArgs e)
+        {
+            PictureBox carte = (PictureBox)sender;
+            carteJouee_1.Image = carte.Image;
         }
 
     }
