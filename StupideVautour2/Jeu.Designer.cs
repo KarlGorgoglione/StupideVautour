@@ -58,7 +58,6 @@
             this.CarteJ1_13 = new System.Windows.Forms.PictureBox();
             this.CarteJ1_14 = new System.Windows.Forms.PictureBox();
             this.CarteJ1_15 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.carteJouee_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carteJouee_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carteJouee_3)).BeginInit();
@@ -444,22 +443,12 @@
             this.CarteJ1_15.Tag = "14";
             this.CarteJ1_15.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(450, 439);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "label1";
-            // 
             // Jeu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1339, 729);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.DeckJ1);
             this.Controls.Add(this.carteJouee_5);
             this.Controls.Add(this.carteJouee_4);
@@ -494,7 +483,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.CarteJ1_14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CarteJ1_15)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -530,7 +518,6 @@
         private System.Windows.Forms.PictureBox CarteJ1_13;
         private System.Windows.Forms.PictureBox CarteJ1_14;
         private System.Windows.Forms.PictureBox CarteJ1_15;
-        private System.Windows.Forms.Label label1;
 
     }
 }

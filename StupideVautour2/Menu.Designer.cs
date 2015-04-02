@@ -56,6 +56,7 @@
             // 
             // nb_joueurs
             // 
+            this.nb_joueurs.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.nb_joueurs.FormattingEnabled = true;
             this.nb_joueurs.Items.AddRange(new object[] {
             "2",
@@ -66,8 +67,8 @@
             this.nb_joueurs.Name = "nb_joueurs";
             this.nb_joueurs.Size = new System.Drawing.Size(116, 21);
             this.nb_joueurs.TabIndex = 2;
-            this.nb_joueurs.Text = "Nombre de joueurs";
             this.nb_joueurs.SelectedIndexChanged += new System.EventHandler(this.nb_joueurs_SelectedIndexChanged);
+            this.nb_joueurs.TextChanged += new System.EventHandler(this.nb_joueurs_TextChanged);
             // 
             // Menu
             // 

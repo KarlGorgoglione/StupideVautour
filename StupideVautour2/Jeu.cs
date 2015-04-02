@@ -15,12 +15,11 @@ namespace StupideVautour2
         enum Phase { AfficheCarteSV, ChoixCarte, ComparaisonCarte, FinTour };
         Phase tour;
         Random shuffle;
-        public static String nbJoueurs;
+        public static int nbJoueurs;
 
         public Jeu()
         {
             InitializeComponent();
-            label1.Text = nbJoueurs;
             DébutJeu();
             
 
@@ -44,10 +43,19 @@ namespace StupideVautour2
         public void resetCartes()
         {
             carteJouee_1.Image = SabotJ1.Images[15];
-            carteJouee_2.Image = SabotJ1.Images[15];
-            carteJouee_3.Image = SabotJ1.Images[15];
-            carteJouee_4.Image = SabotJ1.Images[15];
             carteJouee_5.Image = SabotJ1.Images[15];
+            try
+            {
+                
+                carteJouee_2.Image = SabotJ1.Images[15];
+                carteJouee_3.Image = SabotJ1.Images[15];
+                carteJouee_4.Image = SabotJ1.Images[15];
+
+            }
+            catch (NullReferenceException)
+            {
+
+            }
             carte_SV.Image = SabotJ1.Images[15];
         }
 
@@ -103,6 +111,35 @@ namespace StupideVautour2
 
         private void DébutJeu()
         {
+            switch (nbJoueurs)
+            {
+                case(2):
+                    carteJouee_4.Hide();
+                    carteJouee_4 = null;
+
+                    carteJouee_3.Hide();
+                    carteJouee_3 = null;
+
+                    carteJouee_2.Hide();
+                    carteJouee_2 = null;
+                    
+                    break;
+                case(3):
+                    carteJouee_3.Hide();
+                    carteJouee_3 = null;
+
+                    carteJouee_2.Hide();
+                    carteJouee_2 = null;
+                    
+                    break;
+                case(4):
+                    carteJouee_2.Hide();
+                    carteJouee_2 = null;
+                    
+                    break;
+                case(5):
+                    break;
+            }
             for (int i = 0; i < 15; i++)
             {
                 PictureBox carte = (PictureBox)DeckJ1.Controls[i];
