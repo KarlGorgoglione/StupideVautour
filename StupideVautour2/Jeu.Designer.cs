@@ -58,7 +58,6 @@
             this.CarteJ1_13 = new System.Windows.Forms.PictureBox();
             this.CarteJ1_14 = new System.Windows.Forms.PictureBox();
             this.CarteJ1_15 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.carteJouee_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carteJouee_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carteJouee_3)).BeginInit();
@@ -149,9 +148,23 @@
             // 
             // SabotCaché
             // 
-            this.SabotCaché.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.SabotCaché.ImageSize = new System.Drawing.Size(16, 16);
+            this.SabotCaché.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("SabotCaché.ImageStream")));
             this.SabotCaché.TransparentColor = System.Drawing.Color.Transparent;
+            this.SabotCaché.Images.SetKeyName(0, "Souris1.png");
+            this.SabotCaché.Images.SetKeyName(1, "Souris2.png");
+            this.SabotCaché.Images.SetKeyName(2, "Souris3.png");
+            this.SabotCaché.Images.SetKeyName(3, "Souris4.png");
+            this.SabotCaché.Images.SetKeyName(4, "Souris5.png");
+            this.SabotCaché.Images.SetKeyName(5, "Souris6.png");
+            this.SabotCaché.Images.SetKeyName(6, "Souris7.png");
+            this.SabotCaché.Images.SetKeyName(7, "Souris8.png");
+            this.SabotCaché.Images.SetKeyName(8, "Souris9.png");
+            this.SabotCaché.Images.SetKeyName(9, "Souris10.png");
+            this.SabotCaché.Images.SetKeyName(10, "Vautour1.png");
+            this.SabotCaché.Images.SetKeyName(11, "Vautour2.png");
+            this.SabotCaché.Images.SetKeyName(12, "Vautour3.png");
+            this.SabotCaché.Images.SetKeyName(13, "Vautour4.png");
+            this.SabotCaché.Images.SetKeyName(14, "Vautour5.png");
             // 
             // carte_SV
             // 
@@ -344,22 +357,12 @@
             this.CarteJ1_15.TabIndex = 0;
             this.CarteJ1_15.TabStop = false;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(137, 88);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Ogier gros pd";
-            // 
             // Jeu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1268, 729);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.DeckJ1);
             this.Controls.Add(this.carteJouee_5);
             this.Controls.Add(this.carteJouee_4);
@@ -394,7 +397,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.CarteJ1_14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CarteJ1_15)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -428,7 +430,6 @@
         private System.Windows.Forms.PictureBox CarteJ1_13;
         private System.Windows.Forms.PictureBox CarteJ1_14;
         private System.Windows.Forms.PictureBox CarteJ1_15;
-        private System.Windows.Forms.Label label1;
 
     }
 }

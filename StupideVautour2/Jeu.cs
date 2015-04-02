@@ -12,7 +12,8 @@ namespace StupideVautour2
 {
     public partial class Jeu : Form
     {
-
+        enum Phase { AfficheCarteSV, ChoixCarte, ComparaisonCarte, FinTour };
+        Phase tour;
         public Jeu()
         {
             InitializeComponent();
@@ -22,6 +23,14 @@ namespace StupideVautour2
                 carte.Image = SabotJ1.Images[i];
                 
             }
+            resetCartes();
+            tour = Phase.AfficheCarteSV;
+
+
+        }
+
+        public void resetCartes()
+        {
             carteJouee_1.Image = SabotJ1.Images[15];
             carteJouee_2.Image = SabotJ1.Images[15];
             carteJouee_3.Image = SabotJ1.Images[15];
