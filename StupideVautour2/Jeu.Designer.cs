@@ -84,7 +84,7 @@
             // 
             // carteJouee_1
             // 
-            this.carteJouee_1.Location = new System.Drawing.Point(624, 430);
+            this.carteJouee_1.Location = new System.Drawing.Point(624, 405);
             this.carteJouee_1.Name = "carteJouee_1";
             this.carteJouee_1.Size = new System.Drawing.Size(100, 123);
             this.carteJouee_1.TabIndex = 0;
@@ -92,7 +92,7 @@
             // 
             // carteJouee_2
             // 
-            this.carteJouee_2.Location = new System.Drawing.Point(993, 246);
+            this.carteJouee_2.Location = new System.Drawing.Point(972, 248);
             this.carteJouee_2.Name = "carteJouee_2";
             this.carteJouee_2.Size = new System.Drawing.Size(100, 123);
             this.carteJouee_2.TabIndex = 1;
@@ -100,7 +100,7 @@
             // 
             // carteJouee_3
             // 
-            this.carteJouee_3.Location = new System.Drawing.Point(812, 45);
+            this.carteJouee_3.Location = new System.Drawing.Point(812, 46);
             this.carteJouee_3.Name = "carteJouee_3";
             this.carteJouee_3.Size = new System.Drawing.Size(100, 123);
             this.carteJouee_3.TabIndex = 1;
@@ -108,7 +108,7 @@
             // 
             // carteJouee_4
             // 
-            this.carteJouee_4.Location = new System.Drawing.Point(435, 45);
+            this.carteJouee_4.Location = new System.Drawing.Point(435, 46);
             this.carteJouee_4.Name = "carteJouee_4";
             this.carteJouee_4.Size = new System.Drawing.Size(100, 123);
             this.carteJouee_4.TabIndex = 2;
@@ -116,7 +116,7 @@
             // 
             // carteJouee_5
             // 
-            this.carteJouee_5.Location = new System.Drawing.Point(242, 246);
+            this.carteJouee_5.Location = new System.Drawing.Point(257, 238);
             this.carteJouee_5.Name = "carteJouee_5";
             this.carteJouee_5.Size = new System.Drawing.Size(100, 123);
             this.carteJouee_5.TabIndex = 2;
@@ -168,11 +168,12 @@
             // 
             // carte_SV
             // 
-            this.carte_SV.Location = new System.Drawing.Point(624, 218);
+            this.carte_SV.Location = new System.Drawing.Point(624, 190);
             this.carte_SV.Name = "carte_SV";
             this.carte_SV.Size = new System.Drawing.Size(100, 123);
             this.carte_SV.TabIndex = 0;
             this.carte_SV.TabStop = false;
+            this.carte_SV.Click += new System.EventHandler(this.Carte_SV_Click);
             // 
             // SabotJ1
             // 
@@ -252,6 +253,7 @@
             this.CarteJ1_2.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_2.TabIndex = 0;
             this.CarteJ1_2.TabStop = false;
+            this.CarteJ1_2.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_3
             // 
@@ -260,6 +262,7 @@
             this.CarteJ1_3.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_3.TabIndex = 0;
             this.CarteJ1_3.TabStop = false;
+            this.CarteJ1_3.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_4
             // 
@@ -268,6 +271,7 @@
             this.CarteJ1_4.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_4.TabIndex = 0;
             this.CarteJ1_4.TabStop = false;
+            this.CarteJ1_4.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_5
             // 
@@ -276,6 +280,7 @@
             this.CarteJ1_5.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_5.TabIndex = 0;
             this.CarteJ1_5.TabStop = false;
+            this.CarteJ1_5.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_6
             // 
@@ -284,6 +289,7 @@
             this.CarteJ1_6.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_6.TabIndex = 0;
             this.CarteJ1_6.TabStop = false;
+            this.CarteJ1_6.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_7
             // 
@@ -292,6 +298,7 @@
             this.CarteJ1_7.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_7.TabIndex = 0;
             this.CarteJ1_7.TabStop = false;
+            this.CarteJ1_7.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_8
             // 
@@ -300,6 +307,7 @@
             this.CarteJ1_8.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_8.TabIndex = 0;
             this.CarteJ1_8.TabStop = false;
+            this.CarteJ1_8.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_9
             // 
@@ -308,6 +316,7 @@
             this.CarteJ1_9.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_9.TabIndex = 0;
             this.CarteJ1_9.TabStop = false;
+            this.CarteJ1_9.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_10
             // 
@@ -316,6 +325,7 @@
             this.CarteJ1_10.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_10.TabIndex = 0;
             this.CarteJ1_10.TabStop = false;
+            this.CarteJ1_10.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_11
             // 
@@ -324,6 +334,7 @@
             this.CarteJ1_11.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_11.TabIndex = 0;
             this.CarteJ1_11.TabStop = false;
+            this.CarteJ1_11.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_12
             // 
@@ -332,6 +343,7 @@
             this.CarteJ1_12.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_12.TabIndex = 0;
             this.CarteJ1_12.TabStop = false;
+            this.CarteJ1_12.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_13
             // 
@@ -340,6 +352,7 @@
             this.CarteJ1_13.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_13.TabIndex = 0;
             this.CarteJ1_13.TabStop = false;
+            this.CarteJ1_13.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_14
             // 
@@ -348,6 +361,7 @@
             this.CarteJ1_14.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_14.TabIndex = 0;
             this.CarteJ1_14.TabStop = false;
+            this.CarteJ1_14.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_15
             // 
@@ -356,13 +370,14 @@
             this.CarteJ1_15.Size = new System.Drawing.Size(91, 123);
             this.CarteJ1_15.TabIndex = 0;
             this.CarteJ1_15.TabStop = false;
+            this.CarteJ1_15.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // Jeu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1268, 729);
+            this.ClientSize = new System.Drawing.Size(1339, 729);
             this.Controls.Add(this.DeckJ1);
             this.Controls.Add(this.carteJouee_5);
             this.Controls.Add(this.carteJouee_4);
@@ -399,6 +414,8 @@
             this.ResumeLayout(false);
 
         }
+
+
 
         #endregion
 
