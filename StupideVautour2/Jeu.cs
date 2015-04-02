@@ -45,10 +45,22 @@ namespace StupideVautour2
             carteJouee_1.Image = SabotJ1.Images[15];
             carteJouee_5.Image = SabotJ1.Images[15];
             try
-            {
-                
+            {             
                 carteJouee_2.Image = SabotJ1.Images[15];
+            }
+            catch (NullReferenceException)
+            {
+
+            } try
+            {
                 carteJouee_3.Image = SabotJ1.Images[15];
+
+            }
+            catch (NullReferenceException)
+            {
+
+            } try
+            {
                 carteJouee_4.Image = SabotJ1.Images[15];
 
             }
@@ -56,6 +68,8 @@ namespace StupideVautour2
             {
 
             }
+            
+
             carte_SV.Image = SabotJ1.Images[15];
         }
 
