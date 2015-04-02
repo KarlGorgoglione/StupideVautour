@@ -58,6 +58,7 @@
             this.CarteJ1_13 = new System.Windows.Forms.PictureBox();
             this.CarteJ1_14 = new System.Windows.Forms.PictureBox();
             this.CarteJ1_15 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.carteJouee_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carteJouee_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carteJouee_3)).BeginInit();
@@ -300,6 +301,7 @@
             this.CarteJ1_1.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_1.TabIndex = 0;
             this.CarteJ1_1.TabStop = false;
+            this.CarteJ1_1.Tag = "0";
             this.CarteJ1_1.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_2
@@ -309,6 +311,7 @@
             this.CarteJ1_2.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_2.TabIndex = 0;
             this.CarteJ1_2.TabStop = false;
+            this.CarteJ1_2.Tag = "1";
             this.CarteJ1_2.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_3
@@ -318,6 +321,7 @@
             this.CarteJ1_3.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_3.TabIndex = 0;
             this.CarteJ1_3.TabStop = false;
+            this.CarteJ1_3.Tag = "2";
             this.CarteJ1_3.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_4
@@ -327,6 +331,7 @@
             this.CarteJ1_4.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_4.TabIndex = 0;
             this.CarteJ1_4.TabStop = false;
+            this.CarteJ1_4.Tag = "3";
             this.CarteJ1_4.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_5
@@ -336,6 +341,7 @@
             this.CarteJ1_5.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_5.TabIndex = 0;
             this.CarteJ1_5.TabStop = false;
+            this.CarteJ1_5.Tag = "4";
             this.CarteJ1_5.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_6
@@ -345,6 +351,7 @@
             this.CarteJ1_6.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_6.TabIndex = 0;
             this.CarteJ1_6.TabStop = false;
+            this.CarteJ1_6.Tag = "5";
             this.CarteJ1_6.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_7
@@ -354,6 +361,7 @@
             this.CarteJ1_7.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_7.TabIndex = 0;
             this.CarteJ1_7.TabStop = false;
+            this.CarteJ1_7.Tag = "6";
             this.CarteJ1_7.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_8
@@ -363,6 +371,7 @@
             this.CarteJ1_8.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_8.TabIndex = 0;
             this.CarteJ1_8.TabStop = false;
+            this.CarteJ1_8.Tag = "7";
             this.CarteJ1_8.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_9
@@ -372,6 +381,7 @@
             this.CarteJ1_9.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_9.TabIndex = 0;
             this.CarteJ1_9.TabStop = false;
+            this.CarteJ1_9.Tag = "8";
             this.CarteJ1_9.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_10
@@ -381,6 +391,7 @@
             this.CarteJ1_10.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_10.TabIndex = 0;
             this.CarteJ1_10.TabStop = false;
+            this.CarteJ1_10.Tag = "9";
             this.CarteJ1_10.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_11
@@ -390,6 +401,7 @@
             this.CarteJ1_11.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_11.TabIndex = 0;
             this.CarteJ1_11.TabStop = false;
+            this.CarteJ1_11.Tag = "10";
             this.CarteJ1_11.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_12
@@ -399,6 +411,7 @@
             this.CarteJ1_12.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_12.TabIndex = 0;
             this.CarteJ1_12.TabStop = false;
+            this.CarteJ1_12.Tag = "11";
             this.CarteJ1_12.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_13
@@ -408,6 +421,7 @@
             this.CarteJ1_13.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_13.TabIndex = 0;
             this.CarteJ1_13.TabStop = false;
+            this.CarteJ1_13.Tag = "12";
             this.CarteJ1_13.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_14
@@ -417,6 +431,7 @@
             this.CarteJ1_14.Size = new System.Drawing.Size(81, 123);
             this.CarteJ1_14.TabIndex = 0;
             this.CarteJ1_14.TabStop = false;
+            this.CarteJ1_14.Tag = "13";
             this.CarteJ1_14.Click += new System.EventHandler(this.CarteJ1_1_Click);
             // 
             // CarteJ1_15
@@ -426,7 +441,17 @@
             this.CarteJ1_15.Size = new System.Drawing.Size(91, 123);
             this.CarteJ1_15.TabIndex = 0;
             this.CarteJ1_15.TabStop = false;
+            this.CarteJ1_15.Tag = "14";
             this.CarteJ1_15.Click += new System.EventHandler(this.CarteJ1_1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(450, 439);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "label1";
             // 
             // Jeu
             // 
@@ -434,6 +459,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1339, 729);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.DeckJ1);
             this.Controls.Add(this.carteJouee_5);
             this.Controls.Add(this.carteJouee_4);
@@ -468,6 +494,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.CarteJ1_14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CarteJ1_15)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -503,6 +530,7 @@
         private System.Windows.Forms.PictureBox CarteJ1_13;
         private System.Windows.Forms.PictureBox CarteJ1_14;
         private System.Windows.Forms.PictureBox CarteJ1_15;
+        private System.Windows.Forms.Label label1;
 
     }
 }

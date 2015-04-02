@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.btn_jouer = new System.Windows.Forms.Button();
             this.btn_quitter = new System.Windows.Forms.Button();
+            this.nb_joueurs = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // btn_jouer
@@ -53,12 +54,28 @@
             this.btn_quitter.UseVisualStyleBackColor = true;
             this.btn_quitter.Click += new System.EventHandler(this.btn_quitter_Click);
             // 
+            // nb_joueurs
+            // 
+            this.nb_joueurs.FormattingEnabled = true;
+            this.nb_joueurs.Items.AddRange(new object[] {
+            "2",
+            "3",
+            "4",
+            "5"});
+            this.nb_joueurs.Location = new System.Drawing.Point(625, 133);
+            this.nb_joueurs.Name = "nb_joueurs";
+            this.nb_joueurs.Size = new System.Drawing.Size(116, 21);
+            this.nb_joueurs.TabIndex = 2;
+            this.nb_joueurs.Text = "Nombre de joueurs";
+            this.nb_joueurs.SelectedIndexChanged += new System.EventHandler(this.nb_joueurs_SelectedIndexChanged);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(894, 488);
+            this.Controls.Add(this.nb_joueurs);
             this.Controls.Add(this.btn_quitter);
             this.Controls.Add(this.btn_jouer);
             this.Name = "Menu";
@@ -73,5 +90,6 @@
 
         private System.Windows.Forms.Button btn_jouer;
         private System.Windows.Forms.Button btn_quitter;
+        private System.Windows.Forms.ComboBox nb_joueurs;
     }
 }

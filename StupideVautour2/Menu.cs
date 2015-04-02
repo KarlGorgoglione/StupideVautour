@@ -22,7 +22,7 @@ namespace StupideVautour2
             this.Hide();
             Jeu jeu = new Jeu();
             jeu.Show();
-
+            Jeu.nbJoueurs = nb_joueurs.Text;
         }
 
         private void btn_quitter_Click(object sender, EventArgs e)
@@ -36,6 +36,11 @@ namespace StupideVautour2
         }
 
         private void Menu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nb_joueurs_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

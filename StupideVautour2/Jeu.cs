@@ -15,11 +15,12 @@ namespace StupideVautour2
         enum Phase { AfficheCarteSV, ChoixCarte, ComparaisonCarte, FinTour };
         Phase tour;
         Random shuffle;
-
+        public static String nbJoueurs;
 
         public Jeu()
         {
             InitializeComponent();
+            label1.Text = nbJoueurs;
             DébutJeu();
             
 
