@@ -124,27 +124,83 @@
             // 
             // SabotJ2
             // 
-            this.SabotJ2.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.SabotJ2.ImageSize = new System.Drawing.Size(16, 16);
+            this.SabotJ2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("SabotJ2.ImageStream")));
             this.SabotJ2.TransparentColor = System.Drawing.Color.Transparent;
+            this.SabotJ2.Images.SetKeyName(0, "CarteStupideVautour1.jpg");
+            this.SabotJ2.Images.SetKeyName(1, "CarteStupideVautour2.jpg");
+            this.SabotJ2.Images.SetKeyName(2, "CarteStupideVautour3.jpg");
+            this.SabotJ2.Images.SetKeyName(3, "CarteStupideVautour4.jpg");
+            this.SabotJ2.Images.SetKeyName(4, "CarteStupideVautour5.jpg");
+            this.SabotJ2.Images.SetKeyName(5, "CarteStupideVautour6.jpg");
+            this.SabotJ2.Images.SetKeyName(6, "CarteStupideVautour7.jpg");
+            this.SabotJ2.Images.SetKeyName(7, "CarteStupideVautour8.jpg");
+            this.SabotJ2.Images.SetKeyName(8, "CarteStupideVautour9.jpg");
+            this.SabotJ2.Images.SetKeyName(9, "CarteStupideVautour10.jpg");
+            this.SabotJ2.Images.SetKeyName(10, "CarteStupideVautour11.jpg");
+            this.SabotJ2.Images.SetKeyName(11, "CarteStupideVautour12.jpg");
+            this.SabotJ2.Images.SetKeyName(12, "CarteStupideVautour13.jpg");
+            this.SabotJ2.Images.SetKeyName(13, "CarteStupideVautour14.jpg");
+            this.SabotJ2.Images.SetKeyName(14, "CarteStupideVautour15.jpg");
             // 
             // SabotJ3
             // 
-            this.SabotJ3.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.SabotJ3.ImageSize = new System.Drawing.Size(16, 16);
+            this.SabotJ3.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("SabotJ3.ImageStream")));
             this.SabotJ3.TransparentColor = System.Drawing.Color.Transparent;
+            this.SabotJ3.Images.SetKeyName(0, "CarteStupideVautour1.jpg");
+            this.SabotJ3.Images.SetKeyName(1, "CarteStupideVautour2.jpg");
+            this.SabotJ3.Images.SetKeyName(2, "CarteStupideVautour3.jpg");
+            this.SabotJ3.Images.SetKeyName(3, "CarteStupideVautour4.jpg");
+            this.SabotJ3.Images.SetKeyName(4, "CarteStupideVautour5.jpg");
+            this.SabotJ3.Images.SetKeyName(5, "CarteStupideVautour6.jpg");
+            this.SabotJ3.Images.SetKeyName(6, "CarteStupideVautour7.jpg");
+            this.SabotJ3.Images.SetKeyName(7, "CarteStupideVautour8.jpg");
+            this.SabotJ3.Images.SetKeyName(8, "CarteStupideVautour9.jpg");
+            this.SabotJ3.Images.SetKeyName(9, "CarteStupideVautour10.jpg");
+            this.SabotJ3.Images.SetKeyName(10, "CarteStupideVautour11.jpg");
+            this.SabotJ3.Images.SetKeyName(11, "CarteStupideVautour12.jpg");
+            this.SabotJ3.Images.SetKeyName(12, "CarteStupideVautour13.jpg");
+            this.SabotJ3.Images.SetKeyName(13, "CarteStupideVautour14.jpg");
+            this.SabotJ3.Images.SetKeyName(14, "CarteStupideVautour15.jpg");
             // 
             // SabotJ4
             // 
-            this.SabotJ4.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.SabotJ4.ImageSize = new System.Drawing.Size(16, 16);
+            this.SabotJ4.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("SabotJ4.ImageStream")));
             this.SabotJ4.TransparentColor = System.Drawing.Color.Transparent;
+            this.SabotJ4.Images.SetKeyName(0, "CarteStupideVautour1.jpg");
+            this.SabotJ4.Images.SetKeyName(1, "CarteStupideVautour2.jpg");
+            this.SabotJ4.Images.SetKeyName(2, "CarteStupideVautour3.jpg");
+            this.SabotJ4.Images.SetKeyName(3, "CarteStupideVautour4.jpg");
+            this.SabotJ4.Images.SetKeyName(4, "CarteStupideVautour5.jpg");
+            this.SabotJ4.Images.SetKeyName(5, "CarteStupideVautour6.jpg");
+            this.SabotJ4.Images.SetKeyName(6, "CarteStupideVautour7.jpg");
+            this.SabotJ4.Images.SetKeyName(7, "CarteStupideVautour8.jpg");
+            this.SabotJ4.Images.SetKeyName(8, "CarteStupideVautour9.jpg");
+            this.SabotJ4.Images.SetKeyName(9, "CarteStupideVautour10.jpg");
+            this.SabotJ4.Images.SetKeyName(10, "CarteStupideVautour11.jpg");
+            this.SabotJ4.Images.SetKeyName(11, "CarteStupideVautour12.jpg");
+            this.SabotJ4.Images.SetKeyName(12, "CarteStupideVautour13.jpg");
+            this.SabotJ4.Images.SetKeyName(13, "CarteStupideVautour14.jpg");
+            this.SabotJ4.Images.SetKeyName(14, "CarteStupideVautour15.jpg");
             // 
             // SabotJ5
             // 
-            this.SabotJ5.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.SabotJ5.ImageSize = new System.Drawing.Size(16, 16);
+            this.SabotJ5.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("SabotJ5.ImageStream")));
             this.SabotJ5.TransparentColor = System.Drawing.Color.Transparent;
+            this.SabotJ5.Images.SetKeyName(0, "CarteStupideVautour1.jpg");
+            this.SabotJ5.Images.SetKeyName(1, "CarteStupideVautour2.jpg");
+            this.SabotJ5.Images.SetKeyName(2, "CarteStupideVautour3.jpg");
+            this.SabotJ5.Images.SetKeyName(3, "CarteStupideVautour4.jpg");
+            this.SabotJ5.Images.SetKeyName(4, "CarteStupideVautour5.jpg");
+            this.SabotJ5.Images.SetKeyName(5, "CarteStupideVautour6.jpg");
+            this.SabotJ5.Images.SetKeyName(6, "CarteStupideVautour7.jpg");
+            this.SabotJ5.Images.SetKeyName(7, "CarteStupideVautour8.jpg");
+            this.SabotJ5.Images.SetKeyName(8, "CarteStupideVautour9.jpg");
+            this.SabotJ5.Images.SetKeyName(9, "CarteStupideVautour10.jpg");
+            this.SabotJ5.Images.SetKeyName(10, "CarteStupideVautour11.jpg");
+            this.SabotJ5.Images.SetKeyName(11, "CarteStupideVautour12.jpg");
+            this.SabotJ5.Images.SetKeyName(12, "CarteStupideVautour13.jpg");
+            this.SabotJ5.Images.SetKeyName(13, "CarteStupideVautour14.jpg");
+            this.SabotJ5.Images.SetKeyName(14, "CarteStupideVautour15.jpg");
             // 
             // SabotCaché
             // 

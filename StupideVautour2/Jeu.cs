@@ -20,18 +20,12 @@ namespace StupideVautour2
         public Jeu()
         {
             InitializeComponent();
-            for (int i = 0; i < 15; i++)
-            {
-                PictureBox carte = (PictureBox)DeckJ1.Controls[i];
-                carte.Image = SabotJ1.Images[i];
-                
-            }
-            resetCartes();
-            tour = Phase.AfficheCarteSV;
-            MessageBox.Show("Début du tour!!");
-            affichCarteSV();
+            DébutJeu();
+            
 
         }
+
+        
 
         public int indiceHasard()
         {
@@ -84,8 +78,43 @@ namespace StupideVautour2
 
         private void CarteJ1_1_Click(object sender, EventArgs e)
         {
-            PictureBox carte = (PictureBox)sender;
-            carteJouee_1.Image = carte.Image;
+            if (tour == Phase.ChoixCarte)
+            {
+                PictureBox carte = (PictureBox)sender;
+                if (carte.Image != null && carteJouee_1.Image != SabotJ1.Images[15])
+                {
+                    carteJouee_1.Image = carte.Image;
+                    carte.Image = null;
+                    tour = Phase.ComparaisonCarte;
+                    ComparaisonCarte();
+                }
+            }
+        }
+
+        private void ComparaisonCarte()
+        {
+            if (tour == Phase.ComparaisonCarte)
+            {
+                MessageBox.Show("Comparaison des cartes!");
+            }
+        }
+
+
+        private void DébutJeu()
+        {
+            for (int i = 0; i < 15; i++)
+            {
+                PictureBox carte = (PictureBox)DeckJ1.Controls[i];
+                carte.Image = SabotJ1.Images[i];
+
+            }
+            resetCartes();
+            tour = Phase.AfficheCarteSV;
+            MessageBox.Show("Début du tour!!");
+            affichCarteSV();
+            tour = Phase.ChoixCarte;
+
+            
         }
 
     }

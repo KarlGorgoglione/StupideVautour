@@ -34,5 +34,10 @@ namespace StupideVautour2
         {
             Application.Exit();
         }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

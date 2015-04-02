@@ -64,6 +64,7 @@
             this.Name = "Menu";
             this.Text = "Menu";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Menu_FormClosed);
+            this.Load += new System.EventHandler(this.Menu_Load);
             this.ResumeLayout(false);
 
         }
